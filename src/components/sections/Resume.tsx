@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import SectionBadge from '../ui/SectionBadge'
-import { GraduationCap, Code, FolderOpen, Download, BookOpen } from 'lucide-react'
+import { GraduationCap, Code, FolderOpen, Download } from 'lucide-react'
 
 const education = [
    {
@@ -138,7 +138,7 @@ export default function Resume() {
 
        {/* Download CV Button */}
        <div className="flex justify-center mt-10 md:mt-14">
-         <a href="/cv.pdf" download className="inline-flex items-center gap-2 px-6 md:px-8 py-3 md:py-4 bg-purple-600 hover:bg-purple-500 text-white font-medium rounded-xl transition-all hover:shadow-lg hover:shadow-purple-500/25">
+         <a href="/cv.pdf" download="Abdurrahman Hakim Makarim CV.pdf" className="inline-flex items-center gap-2 px-6 md:px-8 py-3 md:py-4 bg-purple-600 hover:bg-purple-500 text-white font-medium rounded-xl transition-all hover:shadow-lg hover:shadow-purple-500/25">
            <Download className="h-4 w-4 md:h-5 md:w-5" />
            Download CV
          </a>

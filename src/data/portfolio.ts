@@ -4,6 +4,12 @@ export const projects = [
     description: 'A laboratory access system for a Web Computing exam. Built with Laravel and Blade templating.',
     tags: ['Laravel', 'Blade', 'PHP', 'MySQL'],
     githubUrl: 'https://github.com/Furohito/LabAccess',
+    features: [
+      'Role-based access control for lab members',
+      'Booking and scheduling of laboratory equipment',
+      'Attendance tracking and access logs',
+      'Admin dashboard built with Laravel + Blade',
+    ],
   },
   {
     title: 'Speed Typing',
@@ -11,35 +17,67 @@ export const projects = [
     tags: ['React', 'JavaScript', 'CSS'],
     githubUrl: 'https://github.com/Furohito/speed_typing',
     liveUrl: 'https://speedtypingmakarim.netlify.app/',
+    features: [
+      'Measure typing speed (WPM) and accuracy in real time',
+      'Multiple difficulty levels and text samples',
+      'Live results and progress tracking',
+      'Built with React JS and custom CSS',
+    ],
   },
   {
     title: 'Computer Graphics',
     description: 'A course project focused on 3D modeling and rendering, featuring the creation of a detailed mobile phone model using Python and OpenGL.',
     tags: ['Python', 'Graphics', 'Algorithm'],
     githubUrl: 'https://github.com/Furohito/Computer_Graphic',
+    features: [
+      '3D model of a detailed mobile phone',
+      'Rendering with Python and OpenGL',
+      'Modeling and transformation algorithms',
+      'Course final project for computer graphics',
+    ],
   },
   {
     title: 'WasteApp',
     description: 'A web-based waste management application.',
     tags: ['JavaScript', 'Web App'],
     githubUrl: 'https://github.com/Furohito/wasteapp',
+    features: [
+      'Track and manage waste disposal requests',
+      'Web-based UI built with JavaScript',
+      'Simple flow for submitting and viewing reports',
+    ],
   },
   {
     title: 'Nexsite Hub',
     description: 'Developed WordPress-based web templates using Elementor as part of P2MW internship. Designed and built responsive, modern website templates for clients.',
     tags: ['WordPress', 'Elementor', 'PHP', 'Web Design'],
     liveUrl: 'https://nexsitehub.id/',
+    features: [
+      'Responsive, modern website templates',
+      'Built with WordPress and Elementor',
+      'Used for P2MW internship client projects',
+    ],
   },
   {
     title: 'Alam Sutera Real Estate',
     description: 'A real estate website for Alam Sutera, built with WordPress and Elementor. Featuring property listings with a modern, responsive design.',
     tags: ['WordPress', 'Elementor', 'Web Design', 'Real Estate'],
     liveUrl: 'https://alamsutera2.com/',
+    features: [
+      'Property listing and showcase pages',
+      'Modern and responsive layout',
+      'Tailored design for the Alam Sutera brand',
+    ],
   },
   {
     title: 'Computer Vision Project',
     description: 'A Python-based computer vision application exploring image processing and object detection using OpenCV.',
     tags: ['Python', 'OpenCV', 'Computer Vision', 'AI'],
-    githubUrl: 'https://github.com/Furohito/your-cv-repo',
+    githubUrl: 'https://github.com/Furohito/computer_vision',
+    features: [
+      'Image processing pipelines with OpenCV',
+      'Object detection experiments',
+      'Implemented in Python',
+    ],
   },
 ]

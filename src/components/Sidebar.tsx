@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Github, Linkedin, Instagram, Mail } from 'lucide-react'
+import { Github, Linkedin, Instagram } from 'lucide-react'
 
 const socialLinks = [
   { icon: Github, href: 'https://github.com/Furohito', label: 'GitHub' },
