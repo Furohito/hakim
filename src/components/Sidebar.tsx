@@ -26,7 +26,7 @@ export default function Sidebar() {
       {/* Profile Image */}
       <div className="relative rounded-2xl overflow-hidden mb-6 gradient-border">
 <img
-           src="https://media.licdn.com/dms/image/v2/D5603AQHywb6u_O2p6g/profile-displayphoto-crop_800_800/B56Z5QHsBQKkAI-/0/1779460654482?e=1784160000&v=beta&t=yyUbdgYJMVAN6t5OGGsbM4krGbCFVfmZb1HgJdJ3yRc"
+           src="https://media.licdn.com/dms/image/v2/D5603AQHywb6u_O2p6g/profile-displayphoto-crop_800_800/B56Z5QHsBQKkAI-/0/1779460654482?e=1787788800&v=beta&t=wj4_8CAOk8134u3JEJREDU9SnaNMAuSYH-QWPmrHkkI"
            alt="Abdurrahman Hakim Makarim"
            className="w-full h-[280px] xl:h-[320px] object-cover rounded-2xl"
          />
