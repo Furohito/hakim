@@ -10,7 +10,7 @@ export const projects = [
     description: 'A typing speed practice app. Introduction to React JS implementation.',
     tags: ['React', 'JavaScript', 'CSS'],
     githubUrl: 'https://github.com/Furohito/speed_typing',
-    liveUrl: 'https://nexsitehub.id/',
+    liveUrl: 'speedtypingmakarim.netlify.app/',
   },
   {
     title: 'Computer Graphics',
