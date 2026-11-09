@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import SectionBadge from '../ui/SectionBadge'
-import { GraduationCap, Code, FolderOpen, Download } from 'lucide-react'
+import { GraduationCap, Code, FolderOpen } from 'lucide-react'
 
 const education = [
    {
@@ -68,13 +68,14 @@ export default function Resume() {
           >
             <div className="absolute -left-[29px] md:-left-[37px] w-3 md:w-4 h-3 md:h-4 rounded-full bg-gradient-to-r from-purple-500 to-pink-500" />
 
-            <span className="text-xs md:text-sm text-purple-400 font-medium">May - November 2025</span>
-            <h3 className="text-lg md:text-xl font-semibold mt-1">P2MW Winner — Nexsite Hub</h3>
-            <p className="text-gray-500 text-xs md:text-sm mb-2">Digital Business Program</p>
-            <p className="text-gray-400 text-sm md:text-base">
-              Winner of the P2MW program for building a digital business through Nexsite Hub,
-              creating WordPress and Elementor-based web templates for clients.
-            </p>
+            <span className="text-xs md:text-sm text-purple-400 font-medium">June - September 2026</span>
+            <h3 className="text-lg md:text-xl font-semibold mt-1">IT Business Analyst</h3>
+            <p className="text-gray-500 text-xs md:text-sm mb-2">PT Kenosis Sistem Solusi</p>
+            <ul className="list-disc pl-5 space-y-1 text-gray-400 text-sm md:text-base">
+              <li>Executed Unit Testing, SIT, and UAT on completed ERP modules, validating features against business requirements before go-live.</li>
+              <li>Studied ERP business processes and configurations to design test scenarios based on real client workflows.</li>
+              <li>Resolved user-reported issues during post go-live support and verified defect fixes with internal teams before closing test cases.</li>
+            </ul>
           </motion.div>
 
           <motion.div
@@ -136,13 +137,6 @@ export default function Resume() {
         ))}
       </div>
 
-       {/* Download CV Button */}
-       <div className="flex justify-center mt-10 md:mt-14">
-         <a href="/cv.pdf" download="Abdurrahman Hakim Makarim CV.pdf" className="inline-flex items-center gap-2 px-6 md:px-8 py-3 md:py-4 bg-purple-600 hover:bg-purple-500 text-white font-medium rounded-xl transition-all hover:shadow-lg hover:shadow-purple-500/25">
-           <Download className="h-4 w-4 md:h-5 md:w-5" />
-           Download CV
-         </a>
-       </div>
      </section>
   )
 }

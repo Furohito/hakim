@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Github, ExternalLink, ChevronDown } from 'lucide-react'
+import { Github, ExternalLink, ChevronDown, Download } from 'lucide-react'
 
 interface ProjectCardProps {
   title: string
@@ -8,6 +8,7 @@ interface ProjectCardProps {
   tags: string[]
   githubUrl?: string
   liveUrl?: string
+  downloadUrl?: string
   features?: string[]
   index: number
 }
@@ -18,6 +19,7 @@ export default function ProjectCard({
   tags,
   githubUrl,
   liveUrl,
+  downloadUrl,
   features = [],
   index
 }: ProjectCardProps) {
@@ -108,6 +110,17 @@ export default function ProjectCard({
             >
               <ExternalLink size={14} />
               <span>Live</span>
+            </motion.a>
+          )}
+          {downloadUrl && (
+            <motion.a
+              href={downloadUrl}
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="flex items-center gap-1.5 md:gap-2 px-3 md:px-4 py-1.5 md:py-2 text-xs md:text-sm bg-purple-500/20 hover:bg-purple-500/30 border border-purple-500/30 rounded-lg text-purple-300 transition-colors"
+            >
+              <Download size={14} />
+              <span>Download APK</span>
             </motion.a>
           )}
         </div>

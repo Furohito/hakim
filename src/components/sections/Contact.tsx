@@ -53,13 +53,6 @@ export default function Contact() {
             Email
           </a>
         </Button>
-        <Button
-          variant="outline"
-          asChild
-          size="sm"
-          className="border-white/10 hover:bg-white/5 hover:border-purple-500/50 text-xs md:text-sm h-9 md:h-10"
-        >
-        </Button>
       </motion.div>
     </section>
   )

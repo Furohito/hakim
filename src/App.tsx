@@ -35,7 +35,7 @@ export default function App() {
       
       <main className={`
         relative z-10
-        ${isMobile ? 'px-4 pt-20 pb-24' : 'ml-[380px] px-8 lg:px-16 py-10'}
+        ${isMobile ? 'px-4 pt-36 pb-8 sm:px-6' : 'ml-[380px] px-8 lg:px-16 py-10'}
       `}>
         {/* Desktop Navbar */}
         {!isMobile && <Navbar activeSection={activeSection} />}

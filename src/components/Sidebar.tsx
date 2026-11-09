@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { Github, Linkedin, Instagram } from 'lucide-react'
+import profilePhoto from '../foto/Hakim.png'
 
 const socialLinks = [
   { icon: Github, href: 'https://github.com/Furohito', label: 'GitHub' },
@@ -26,9 +27,9 @@ export default function Sidebar() {
       {/* Profile Image */}
       <div className="relative rounded-2xl overflow-hidden mb-6 gradient-border">
 <img
-           src="https://media.licdn.com/dms/image/v2/D5603AQHywb6u_O2p6g/profile-displayphoto-crop_800_800/B56Z5QHsBQKkAI-/0/1779460654482?e=1787788800&v=beta&t=wj4_8CAOk8134u3JEJREDU9SnaNMAuSYH-QWPmrHkkI"
+           src={profilePhoto}
            alt="Abdurrahman Hakim Makarim"
-           className="w-full h-[280px] xl:h-[320px] object-cover rounded-2xl"
+           className="w-full h-[280px] xl:h-[320px] object-cover object-top rounded-2xl"
          />
       </div>
 

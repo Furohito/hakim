@@ -23,6 +23,10 @@
     overflow-x: hidden;
   }
 
+  section[id] {
+    scroll-margin-top: 9rem;
+  }
+
   ::-webkit-scrollbar {
     width: 6px;
   }
